@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- aos -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <!-- style -->
+      <link rel="stylesheet" href="./style.css">
+      <!-- font awesome cdn -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- bootstrap cdn link -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <!-- navbar -->
+     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand text-primary" href="#">Sebin MP</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active text-primary" aria-current="page" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item link">
+                    <a class="nav-link text-primary link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-primary link" href="#card1">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-primary link" href="#card2">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-primary link" href="#detail">Education</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-primary link" href="#contacts">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- hero section -->
+     <div class="hero container mt-3" id="hero">
+        <div class="hero1" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+            <h4 class="text-primary">HELLO I'M SEBIN MP</h4>
+            <h1>Aspiring Web Developer</h1>
+            <p>Hi, I'm Sebin MP, a BCA graduate Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde porro asperiores fuga eaque sit? Eum totam, necessitatibus excepturi voluptatem accusamus minima tenetur autem, consectetur sint quis quibusdam in nisi eaque.</p>
+            <div>
+                <button type="button" class="btn btn-outline-primary">View My Projects</button>
+                <button type="button" class="btn btn-outline-primary">Contact Me</button>
+            </div>
+        </div>
+        <div class="hero2" >
+            <img src="./images/heroImage.png" alt="">
+        </div>
+        <div class="hero3" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" id="about">
+            <h3 class="text-primary">About Me</h3>
+            <h1>My Story</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam tempora eveniet illum. Nisi nesciunt omnis voluptatem error aut earum accusamus quos? Culpa commodi inventore, nisi eius possimus ducimus rem exercitationem.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam doloremque, at ratione molestiae quam veniam illo possimus pariatur minus minima. Iste quos temporibus possimus consequatur nisi quasi laudantium vel qui.</p>
+        </div>
+     </div>
+    <!-- cards1 section -->
+     <div class="container mt-5" id="card1">
+        <h3 class="text-primary">My Skills</h3>
+        <h1>Technologies I'm Familiar With</h1>
+     </div>
+     <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="d-md-flex d-sm-grid row-gap-3 justify-content-around col-10">
+            <div class="card shadow-sm" style="width: 14rem; height: 20rem;">
+                <img src="./images/htmlCard.png" class="card-img-top w-50 h-50 m-auto mt-3 img-fluid" alt="No Image">
+                <div class="card-body">
+                    <h5 class="card-title text-center">HTML5</h5>
+                    <p class="card-text text-center">Creating webpage structure and content.</p>
+                </div>
+            </div>
+            <div class="card shadow-sm" style="width: 14rem; height: 20rem;">
+                <img src="./images/cssCard.png" class="card-img-top w-75 h-50 m-auto img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">CSS</h5>
+                    <p class="card-text text-center">Styling, layouts and responsive design.</p>
+                </div>
+            </div>
+            <div class="card shadow-sm" style="width: 14rem; height: 20rem;">
+                <img src="./images/bootstrapCard.png" class="card-img-top w-75 h-50 m-auto mt-3" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Bootstrap</h5>
+                    <p class="card-text text-center">Building responsive layouts with ready-made components.</p>
+                </div>
+            </div>
+            <div class="card shadow-sm" style="width: 14rem; height: 20rem;">
+                <img src="./images/tailwindCard.png" class="card-img-top w-50 h-50 m-auto mt-3" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">TAILWIND CSS</h5>
+                    <p class="card-text text-center">Styling websites with utility classes.</p>
+                </div>
+            </div>
+            <div class="card shadow-sm" style="width: 14rem; height: 20rem;">
+                <img src="./images/figmaCard.png" class="card-img-top w-75 h-50 m-auto mt-3" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">FIGMA</h5>
+                    <p class="card-text text-center">Creating layouts UI designs.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-1">
+        </div>
+    </div>
+     <!-- cards2 section -->
+    <div class="container mt-5 mb-5" id="card2">
+        <h3 class="text-primary">My Projects</h3>
+        <h1>Featured Projects</h1>
+    </div>
+    <div class="container">
+        <div class="row g-3 d-sm-grid d-md-flex row-gap-3">
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="d-flex h-100">
+                        <img src="./images/project1.png" class="img-fluid" style="width: 50%; object-fit: cover;" alt="Forlay Events">
+                        <div class="card-body">
+                            <h5 class="card-title">Forlay Events</h5>
+                            <p class="card-text">An event planning website concept designed to showcase weddings, engagements and other special occasions.</p>
+                            <h6>Technologies:</h6>
+                            <p>HTML, CSS, Bootstrap</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="d-flex h-100">
+                        <img src="./images/project2.png" class="img-fluid" style="width: 50%; object-fit: cover;" alt="Dream Events">
+                        <div class="card-body">
+                            <h5 class="card-title">Dream Events</h5>
+                            <p class="card-text">An event planning website concept designed to showcase weddings, engagements and other special occasions.</p>
+                            <h6>Technologies:</h6>
+                            <p>HTML, CSS, Tailwind</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- details -->
+     <div class="container mt-5" id="detail">
+        <div class="row">
+            <div class="col-md-6 mb-5" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <div>
+                    <h3 class="text-primary">Education</h3>
+                    <h2>Acadamic Background</h2>
+                </div>
+                <div class="card shadow-sm mt-4" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Bachelor of Computer Applications(BCA)</h5>
+                        <p class="card-text">SEA College <br> Bengaluru North University <br> 2023-2026</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 " id="contacts" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <h3 class="text-primary">Contact</h3>
+                <h2>Get In Touch</h2>
+                <div>
+                    <p>Feel free to reach out to me for any oppourtunities, collaborations or just to say hello!</p>
+                </div>
+                <div class="m-5">
+                    <a href="" class="me-3 link"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="" class="me-3 link"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="" class="me-3 link"><i class="fa-brands fa-github"></i></a>
+                    <a href="" class="me-3 link"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- footer -->
+      <footer class="bg-primary text-light text-center p-3">
+        &copy;All Rights Are Reserved 2026 - Portfolio
+      </footer>
+</body>
+<!-- AOS JavaScript -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<!-- bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</html>
